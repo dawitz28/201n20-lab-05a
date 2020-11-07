@@ -86,27 +86,19 @@ var testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
     var returnArray = [];
-    var a + b = sum((sumArr[0]), (sum[1]));
-    a + b = a + b[0]; 
-    var finalSum = sum(a + b, sumArr[2])[0];
+    var aPlusb = sum((sumArr[0]), (sumArr[1]));
+    aPlusb = aPlusb[0]; 
+    var finalSum = sum(aPlusb, sumArr[2])[0];
     returnArray[0] = finalSum;
-    returnArray[1] = `${sumArr[0]}, ${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${finalSum} is their sum.`
-
-
-    // a = sumArr[0], b = sumArr[1], c = sumArr[2]
-    // var firstSum = sum(sumArr[0], sumArr[1])[0];
-    // var collectiveSumMax = sum(sumArr[2], firstSum)[0];
-
-    // var collectiveSum = sum(sumArr[0], sum(sumArr[1], sumArr[2])[0])[0];
-    // var str = `${sumArr} was passed in as an array of numbers, and ${collectiveSumMax}`;
-
+    returnArray[1] = `${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${finalSum} is their sum.`
     return returnArray;
+
 
 }
 testSumArray(testArray);
 
 // Here is the test for 
-÷// uncomment it to run it
+// uncomment it to run it
 
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
